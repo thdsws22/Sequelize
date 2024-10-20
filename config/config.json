@@ -1,0 +1,14 @@
+{
+  "development": {
+    "storage": "/media/dexter/bd63755b-158f-41aa-976e-88310e0086fc/dexter/Developer/Sequelize/database/mydatabase.sqlite",
+    "dialect": "sqlite"
+  },
+  "test": {
+    "storage": ":memory:",
+    "dialect": "sqlite"
+  },
+  "production": {
+    "storage": "/media/dexter/bd63755b-158f-41aa-976e-88310e0086fc/dexter/Developer/Sequelize/database/mydatabase_production.sqlite",
+    "dialect": "sqlite"
+  }
+}
